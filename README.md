@@ -163,7 +163,7 @@ ocr_client = OcrClient(host='http://127.0.0.1:8868')
 
 def run():
     # 載入本地影像
-    image = Image.open("/home/kim/workspace/myproject/kocr/test/large.jpg")
+    image = Image.open("/path/to/large.jpg")
 
     img_base64 = image_to_base64(image)
     # must set the slide window's size
