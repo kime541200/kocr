@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="kocr",  # 專案名稱
-    version="0.1.1",  # 專案版本
+    version="0.1.3",  # 專案版本
     author="Kim Chen",  # 作者名稱
     author_email="kime541200@outlook.com",  # 作者郵件
     description="Use to build server end-point and client end-point of OCR service.",  # 專案描述

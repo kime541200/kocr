@@ -67,7 +67,7 @@ INFO:     Uvicorn running on http://0.0.0.0:8868 (Press CTRL+C to quit)
 ### Docker
 1. Build Docker image
 ```bash
-docker pull kime541200/kocr:latest
+docker pull kime541200/kocr:1.0
 ```
 
 2. Create Docker container
