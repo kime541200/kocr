@@ -1,0 +1,3 @@
+exclude .vscode/*
+exclude test/*
+exclude .ref/*

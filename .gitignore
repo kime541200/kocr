@@ -1,0 +1,13 @@
+# IDE
+.vscode/
+
+# test data
+test/
+
+# reference data
+ref/
+
+# whl
+dist/
+build/
+kocr.egg-info/
