@@ -67,12 +67,12 @@ INFO:     Uvicorn running on http://0.0.0.0:8868 (Press CTRL+C to quit)
 ### Docker
 1. Build Docker image
 ```bash
-docker pull kime541200/kocr:1.0
+docker pull kime541200/kocr:latest
 ```
 
 2. Create Docker container
 ```bash
-sudo docker run -d \
+sudo docker run -it \
 --gpus='"device=0"' \
 -v /data/models/paddleocr:/data/models/paddleocr \
 -e OCR_MODEL_ROOT=/data/models/paddleocr \
@@ -84,7 +84,7 @@ sudo docker run -d \
 -w /usr/src/app/kocr \
 --restart unless-stopped \
 --name kocr \
-kocr:latest \
+kime541200/kocr:latest \
 python api_server.py
 ```
 
